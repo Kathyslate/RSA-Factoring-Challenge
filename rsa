@@ -28,7 +28,7 @@ factorization()
 		        num2=$numcp
                 fi
 
-        echo "$num$num1*$num2"
+        echo "$num=$num1*$num2"
 }
 
 if [ $# -ne 1 ]
