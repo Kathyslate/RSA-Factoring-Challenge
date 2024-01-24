@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 factorization()
 {
 	if [ $# -ne 3 ];
@@ -34,7 +33,7 @@ factorization()
 
 if [ $# -ne 1 ]
 then
-        echo 'Usage: factors <file>'
+        echo 'Usage: rsa <file>'
         exit 1
 else
 
